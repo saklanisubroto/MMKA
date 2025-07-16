@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Range - Moti Mausi's Pickles</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/cart.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Moti Mausi's</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html" class="active">Our Range</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="content product-grid">
+    <h2>Our Signature Pickles</h2>
+    <button onclick="addToCart('mango400')">Add Mango 400g – ₹399</button>
+    <button onclick="addToCart('mango1kg')">Add Mango 1kg – ₹899</button>
+    <button onclick="addToCart('hing400')">Add Hing Mango 400g – ₹599</button>
+    <button onclick="addToCart('hing1kg')">Add Hing Mango 1kg – ₹1299</button>
+    <button onclick="addToCart('chili400')">Add Chilli 400g – ₹399</button>
+    <button onclick="addToCart('chili1kg')">Add Chilli 1kg – ₹899</button>
+    <div id="cart" style="margin-top:20px;"></div>
+    <div id="total" style="margin-top:10px; font-weight:bold;"></div>
+    <button id="orderBtn" onclick="placeOrder()" disabled class="btn">Place Order on WhatsApp</button>
+  </section>
+  <footer>© 2025 Moti Mausi’s Pickles.</footer>
+</body>
+</html>
