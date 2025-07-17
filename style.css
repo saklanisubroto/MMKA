@@ -1,59 +1,55 @@
+
 body {
-  font-family: 'Georgia', serif;
-  background: #fffaf3;
   margin: 0;
-  padding: 0;
-  color: #333;
+  font-family: 'Playfair Display', serif;
+  background-color: #fdf6ec;
+  color: #2e2e2e;
 }
 header {
-  background: #fff0d4;
-  padding: 1rem 2rem;
-}
-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff0db;
 }
-nav .logo {
-  font-size: 1.6rem;
-  color: #8b4513;
-  font-weight: bold;
+.logo {
+  height: 60px;
 }
 nav ul {
-  list-style: none;
+  list-style-type: none;
   display: flex;
-  gap: 20px;
+  gap: 1.5rem;
 }
 nav a {
   text-decoration: none;
-  color: #333;
-}
-nav a.active, nav a:hover {
-  color: #a14f03;
+  color: #5c3317;
+  font-weight: bold;
 }
 .hero {
-  padding: 4rem 2rem;
+  background: url('../assets/hero-background.jpg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text {
   text-align: center;
+  background-color: rgba(255, 248, 220, 0.85);
+  padding: 2rem;
+  border-radius: 10px;
 }
 .btn {
-  padding: 0.5rem 1rem;
-  background-color: #a14f03;
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #a0522d;
   color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.content {
-  padding: 2rem;
-}
-.product-grid button {
-  display: block;
-  margin: 0.5rem 0;
-  padding: 0.6rem;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
 }
 footer {
-  background: #fff0d4;
   text-align: center;
   padding: 1rem;
-  margin-top: 3rem;
+  background-color: #fff0db;
+  font-size: 0.9rem;
 }
