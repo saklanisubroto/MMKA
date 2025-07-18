@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background: #fdf6ec;
+  color: #333;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #fff0db;
+}
+.logo {
+  height: 60px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #5c3317;
+}
+nav a.active, nav a:hover {
+  color: #a14f03;
+}
+.hero {
+  height: 80vh;
+  background: url('../assets/hero-background.jpg') no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text {
+  background: rgba(255, 248, 220, 0.85);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.hero-text h1 {
+  font-size: 3rem;
+}
+.hero-text p {
+  font-size: 1.2rem;
+}
+.btn {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background: #a0522d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  padding: 1rem;
+  text-align: center;
+  background: #fff0db;
+  font-size: 0.9rem;
+}
